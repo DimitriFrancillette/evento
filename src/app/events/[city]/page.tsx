@@ -1,5 +1,9 @@
-import React from 'react';
+import H1 from '@/components/h1';
 
 export default function EventsPage() {
-  return <div>EventsPage</div>;
+  return (
+    <main>
+      <H1>Events in Auystin</H1>
+    </main>
+  );
 }
