@@ -1,6 +1,11 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 export default function Logo() {
-  return <Image src='/evento.png' alt='logo' width={53} height={12} />;
+  return (
+    <Link href='/'>
+      <Image src='/evento.png' alt='Evento logo' width={53} height={12} />
+    </Link>
+  );
 }
